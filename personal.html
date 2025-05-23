@@ -1,0 +1,716 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<!--link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"-->
+	<link rel="stylesheet" href="html/css/fonts.css">
+	<!-- <link rel="stylesheet" href="html/css/css_lib_pack.css"> -->
+	<link rel="stylesheet" href="html/css/personal.css">
+	<link rel="stylesheet" href="html/css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="html/css/style.css">
+	<!-- <link rel="stylesheet" href="html/css/header.css"> -->
+	<!-- <link rel="stylesheet" href="html/css/main-block.css"> -->
+	<!--  <link rel="stylesheet" href="html/css/catalog-slider.css">  -->
+	<!-- <link rel="stylesheet" href="html/css/popular_categories.css"> -->
+	<!-- <link rel="stylesheet" href="html/css/fandom.css"> -->
+	<!-- <link rel="stylesheet" href="html/css/promotions.css"> -->
+	<!-- <link rel="stylesheet" href="html/css/news.css"> -->
+	<!-- <link rel="stylesheet" href="html/css/footer.css"> -->
+</head>
+<body>
+    <!-- <header class="header">
+		<div class="top-menu">
+           		<div class="container">
+					<div class="top-menu__wrapper">
+						<div class="top-menu__city"> Екатеринбург</div>
+						<div class="top-menu__numbers">
+							<div class="top-menu__numbers-inner">
+								<a class="top-menu__number" href="tel:+77081425603"> 8 (234) 545-55-55;</a>
+								<a class="top-menu__number" href="tel:+77081425603"> 8 (234) 545-55-55</a>
+							</div>
+						</div>
+                	</div>
+				</div>
+		</div>
+		<div class="menu-content">
+			<div class="menu-content__wrapper">
+				<div class="container">
+						<div class="menu">
+							<div class="menu__catalog">
+									<span></span>
+								<div class="menu__catalog-inner"> Каталог </div>
+							</div>
+							<div class="menu__logo">
+								<a href="index.html">
+									<img class="menu__img" src="html/img/header/logo.png" alt="">
+								</a>
+							</div>
+							<div class="menu__search">
+								<form action="" method="get">
+									<input type="text" name="search" value=""
+									placeholder="Ваш поисковой запрос..." class="search__input">
+									<button type="submit"></button>
+								</form>
+							</div>
+							<div class="menu__links">
+								<a class="log-in menu__link" href="#">Вход</a>
+								<a class="favorites menu__link" href="#">Избранное</a>
+								<a class="comparison menu__link" href="#">Сравнение</a>
+								<a class="header-cart menu__link" href="#"> Корзина</a>
+							</div>
+					  </div>
+				</div>
+			</div>
+		</div>
+    </header> -->
+    <header class="header">
+		<div class="top-menu">
+           		<div class="container">
+					<div class="top-menu__wrapper">
+						<div class="top-menu__city"> Алматы</div>
+						<div class="top-menu__numbers">
+							<div class="top-menu__numbers-inner">
+								<a class="top-menu__number" href="tel:+77081425603"> 8 (700) 545-39-64;</a>
+								<a class="top-menu__number" href="tel:+77081425603"> 8 (234) 291-79-15</a>
+							</div>
+						</div>
+                	</div>
+				</div>
+		</div>
+		<div class="menu-content">
+			<div class="menu-content__wrapper">
+				<div class="container">
+						<div class="menu">
+							<!-- <div class="menu__catalog"> -->
+								<a href="category.html" class="menu__catalog">
+									<span></span>
+								<div class="menu__catalog-inner"> Каталог </div>
+							</a>
+							<!-- </div> -->
+							<div class="menu__logo">
+								<a href="index.html">
+									<img class="menu__img" src="html/img/header/logo.png" alt="">
+								</a>
+							</div>
+							<div class="menu__search">
+								<form action="" method="get">
+									<input type="text" name="search" value=""
+									placeholder="Ваш поисковой запрос..." class="search__input">
+									<button type="submit"></button>
+								</form>
+							</div>
+							<div class="menu__links">
+								<a class="log-in menu__link" href="personal.html">Вход</a>
+								<a class="favorites menu__link" href="#">Избранное</a>
+								<a class="comparison menu__link" href="#">Сравнение</a>
+								<a class="header-cart menu__link" href="cart.html"> Корзина</a>
+							</div>
+					  </div>
+				</div>
+			</div>
+		</div>
+    </header>
+    <section class="private-area">
+        <div class="container">
+            <div class="personal-area__title title">Личный кабинет</div>
+            <div class="presonal-area__tabs">
+                <div class="personal-area__row">
+                    <div data_tab="personal-area__tab1" class="personal-area__item personal-area__item1">Мои заказы</div>
+                    <div data_tab="personal-area__tab2" class="personal-area__item personal-area__item2">Изменение пароля</div>
+                    <!-- <div data_tab="personal-area__tab3" class="personal-area__item personal-area__item3">Персональные данные</div> -->
+                </div>
+                <div class="personal-area__content">
+                    <div class="personal-area__tab personal-area__tab1">
+                        <div class="personal-area__orders-wrapper">
+                            <ul class="personal-area__orders">
+                                <li><a href="#" class="personal-area__link bold"> Все заказы <span>(0)</span></a></li>
+                                <li><a href="#" class="personal-area__link"> Доставляются<span>(0)</span></a></li>
+                                <li><a href="#" class="personal-area__link"> Доставленны<span>(0)</span></a></li>
+                                <li><a href="#" class="personal-area__link"> Отменены<span>(0)</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="personal-area__orders-information">
+                            <div class="personal-area__order-information">
+                                <div class="personal-area__order-row">
+                                    <div class="personal-area__order-price">
+                                        Заказ <span class="bold"> № 245656</span>
+                                        от 10.04.2025
+                                        Сумма: 380 000 ₸
+                                    </div>
+                                    <div class="personal-area__order-date">
+                                        <span class="order-date__delivery">Доставляется</span>
+                                        <span> Планируемая дата: </span>
+                                        12.04.2025
+                                    </div>
+                                    <div class="personal-area__order-adress">
+                                        Доставка: <span class="bold">CDEK</span>
+                                        Адрес пункта выдачи:
+                                        ул. Бориса Богаткова, 248а
+                                    </div>
+                                    <div class="personal-area__track-code">
+                                        Трек номер:
+                                    <span class="bold">145782217852</span> 
+                                        <a href="#" class="track-code__link">Отслеживать</a>
+                                    </div>
+                                    <a href="#" class="personal-area__order-button">
+                                        <div class="personal-area__order-link">Подробности заказа</div>
+                                    </a>
+                                </div>
+                                <div class="personal-area__order-name personal-area__order-name--active">Наименования в заказе</div>
+                                <div class="personal-area__order-content personal-area__order-content--active">
+                                    <div class="personal-area__products-wrapper">
+                                        <div class="personal-area__products-information">
+                                            <div class="personal-area__products-title">Товары в заказе</div>
+                                            <div class="personal-area__product">
+                                                <div class="personal-area__product-image">
+                                                    <img src="html/img/personal-area/product-image1.png" alt="">
+                                                </div>
+                                                <div class="personal-area__product-wrapper">
+                                                    <div class="personal-area__product-name">
+                                                        Pandora Серьги «Розовое сердце» <span class="bold">35 000 ₸</span>
+                                                    </div>
+                                                </div>
+                                                <div class="personal-area__product-quantity">Кол-во: 2</div>
+                                                <div class="personal-area__product-inner">
+                                                    <div class="personal-area__product-price bold">70 000 ₸</div>
+                                                    <div class="personal-area__product-discount">Скидка 0 ₸</div>
+                                                </div>
+                                            </div>
+                                            <div class="personal-area__product">
+                                                <div class="personal-area__product-image">
+                                                    <img src="html/img/personal-area/product-image1.png" alt="">
+                                                </div>
+                                                <div class="personal-area__product-wrapper">
+                                                    <div class="personal-area__product-name">
+                                                        Pandora Серьги «Розовое сердце» <span class="bold">35 000 ₸</span>
+                                                    </div>
+                                                </div>
+                                                <div class="personal-area__product-quantity">Кол-во: 2</div>
+                                                <div class="personal-area__product-inner">
+                                                    <div class="personal-area__product-price bold">70 000 ₸</div>
+                                                    <div class="personal-area__product-discount">Скидка 0 ₸</div>
+                                                </div>
+                                            </div>
+                                            <div class="personal-area__product">
+                                                <div class="personal-area__product-image">
+                                                    <img src="html/img/personal-area/product-image1.png" alt="">
+                                                </div>
+                                                <div class="personal-area__product-wrapper">
+                                                    <div class="personal-area__product-name">
+                                                        Pandora Серьги «Розовое сердце» <span class="bold">35 000 ₸</span>
+                                                    </div>
+                                                </div>
+                                                <div class="personal-area__product-quantity">Кол-во: 2</div>
+                                                <div class="personal-area__product-inner">
+                                                    <div class="personal-area__product-price bold">70 000 ₸</div>
+                                                    <div class="personal-area__product-discount">Скидка 0 ₸</div>
+                                                </div>
+                                            </div>
+                                            <div class="personal-area__product">
+                                                <div class="personal-area__product-image">
+                                                    <img src="html/img/personal-area/product-image1.png" alt="">
+                                                </div>
+                                                <div class="personal-area__product-wrapper">
+                                                    <div class="personal-area__product-name">
+                                                        Pandora Серьги «Розовое сердце» <span class="bold">35 000 ₸</span>
+                                                    </div>
+                                                </div>
+                                                <div class="personal-area__product-quantity">Кол-во: 2</div>
+                                                <div class="personal-area__product-inner">
+                                                    <div class="personal-area__product-price bold">70 000 ₸</div>
+                                                    <div class="personal-area__product-discount">Скидка 0 ₸</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="personal-area__item-price">
+                                            <div class="personal-area__item-title">Стоимость заказа</div>
+                                            <ul class="item-price__price">
+                                                <li class="item-price__product-price">
+                                                    Стоимость товара: <span class="bold">380 000 ₸</span>
+                                                </li>
+                                                <li class="item-price__product-discount">
+                                                    Скидка на товар: <span class="bold">0 ₸</span>
+                                                </li>
+                                                <li class="item-price__order-discount">
+                                                    Скидка на заказ: <span class="bold">0 ₸</span>
+                                                </li>
+                                                <li class="item-price__delivery-price">
+                                                    Стоимость доставки: <span class="bold">0 ₸</span>
+                                                </li>
+                                            </ul>
+                                            <div class="personal-area__total-amount">
+                                                Итого: <span class="bold">380 000 ₸</span>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="personal-area__order-information">
+                                <div class="personal-area__order-row">
+                                    <div class="personal-area__order-price">
+                                        Заказ <span class="bold"> № 245656</span>
+                                        от 10.04.2025
+                                        Сумма: 380 000 ₸
+                                    </div>
+                                    <div class="personal-area__order-date">
+                                        <span class="order-date__delivery-check">Доставлен</span>
+                                        <span> Планируемая дата: </span>
+                                        12.04.2025
+                                    </div>
+                                    <div class="personal-area__order-adress">
+                                        Доставка: <span class="bold">CDEK</span>
+                                        Адрес пункта выдачи:
+                                        ул. Бориса Богаткова, 248а
+                                    </div>
+                                    <div class="personal-area__track-code">
+                                        Трек номер:
+                                    <span class="bold">145782217852</span> 
+                                        <a href="#" class="track-code__link">Отслеживать</a>
+                                    </div>
+                                    <a href="#" class="personal-area__order-button">
+                                        <div class="personal-area__order-link">Подробности заказа</div>
+                                    </a>
+                                </div>
+                                <div class="personal-area__order-name">Наименования в заказе</div>
+                                <div class="personal-area__order-content">
+                                    <div class="personal-area__products-wrapper">
+                                        <div class="personal-area__products-information">
+                                            <div class="personal-area__products-title">Товары в заказе</div>
+                                            <div class="personal-area__product">
+                                                <div class="personal-area__product-image">
+                                                    <img src="html/img/personal-area/product-image1.png" alt="">
+                                                </div>
+                                                <div class="personal-area__product-wrapper">
+                                                    <div class="personal-area__product-name">
+                                                        Pandora Серьги «Розовое сердце» <span class="bold">35 000 ₸</span>
+                                                    </div>
+                                                </div>
+                                                <div class="personal-area__product-quantity">Кол-во: 2</div>
+                                                <div class="personal-area__product-inner">
+                                                    <div class="personal-area__product-price bold">70 000 ₸</div>
+                                                    <div class="personal-area__product-discount">Скидка 0 ₸</div>
+                                                </div>
+                                            </div>
+                                            <div class="personal-area__product">
+                                                <div class="personal-area__product-image">
+                                                    <img src="html/img/personal-area/product-image1.png" alt="">
+                                                </div>
+                                                <div class="personal-area__product-wrapper">
+                                                    <div class="personal-area__product-name">
+                                                        Pandora Серьги «Розовое сердце» <span class="bold">35 000 ₸</span>
+                                                    </div>
+                                                </div>
+                                                <div class="personal-area__product-quantity">Кол-во: 2</div>
+                                                <div class="personal-area__product-inner">
+                                                    <div class="personal-area__product-price bold">70 000 ₸</div>
+                                                    <div class="personal-area__product-discount">Скидка 0 ₸</div>
+                                                </div>
+                                            </div>
+                                            <div class="personal-area__product">
+                                                <div class="personal-area__product-image">
+                                                    <img src="html/img/personal-area/product-image1.png" alt="">
+                                                </div>
+                                                <div class="personal-area__product-wrapper">
+                                                    <div class="personal-area__product-name">
+                                                        Pandora Серьги «Розовое сердце» <span class="bold">35 000 ₸</span>
+                                                    </div>
+                                                </div>
+                                                <div class="personal-area__product-quantity">Кол-во: 2</div>
+                                                <div class="personal-area__product-inner">
+                                                    <div class="personal-area__product-price bold">70 000 ₸</div>
+                                                    <div class="personal-area__product-discount">Скидка 0 ₸</div>
+                                                </div>
+                                            </div>
+                                            <div class="personal-area__product">
+                                                <div class="personal-area__product-image">
+                                                    <img src="html/img/personal-area/product-image1.png" alt="">
+                                                </div>
+                                                <div class="personal-area__product-wrapper">
+                                                    <div class="personal-area__product-name">
+                                                        Pandora Серьги «Розовое сердце» <span class="bold">35 000 ₸</span>
+                                                    </div>
+                                                </div>
+                                                <div class="personal-area__product-quantity">Кол-во: 2</div>
+                                                <div class="personal-area__product-inner">
+                                                    <div class="personal-area__product-price bold">70 000 ₸</div>
+                                                    <div class="personal-area__product-discount">Скидка 0 ₸</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="personal-area__item-price">
+                                            <div class="personal-area__item-title">Стоимость заказа</div>
+                                            <ul class="item-price__price">
+                                                <li class="item-price__product-price">
+                                                    Стоимость товара: <span class="bold">380 000 ₸</span>
+                                                </li>
+                                                <li class="item-price__product-discount">
+                                                    Скидка на товар: <span class="bold">0 ₸</span>
+                                                </li>
+                                                <li class="item-price__order-discount">
+                                                    Скидка на заказ: <span class="bold">0 ₸</span>
+                                                </li>
+                                                <li class="item-price__delivery-price">
+                                                    Стоимость доставки: <span class="bold">0 ₸</span>
+                                                </li>
+                                            </ul>
+                                            <div class="personal-area__total-amount">
+                                                Итого: <span class="bold">380 000 ₸</span>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="personal-area__order-information">
+                                <div class="personal-area__order-row">
+                                    <div class="personal-area__order-price">
+                                        Заказ <span class="bold"> № 245656</span>
+                                        от 10.04.2025
+                                        Сумма: 380 000 ₸
+                                    </div>
+                                    <div class="personal-area__order-date">
+                                        <span class="order-date__delivery-check">Доставлен</span>
+                                        <span> Планируемая дата: </span>
+                                        12.04.2025
+                                    </div>
+                                    <div class="personal-area__order-adress">
+                                        Доставка: <span class="bold">CDEK</span>
+                                        Адрес пункта выдачи:
+                                        ул. Бориса Богаткова, 248а
+                                    </div>
+                                    <div class="personal-area__track-code">
+                                        Трек номер:
+                                    <span class="bold">145782217852</span> 
+                                        <a href="#" class="track-code__link">Отслеживать</a>
+                                    </div>
+                                    <a href="#" class="personal-area__order-button">
+                                        <div class="personal-area__order-link">Подробности заказа</div>
+                                    </a>
+                                </div>
+                                <div class="personal-area__order-name">Наименования в заказе</div>
+                                <div class="personal-area__order-content">
+                                    <div class="personal-area__products-wrapper">
+                                        <div class="personal-area__products-information">
+                                            <div class="personal-area__products-title">Товары в заказе</div>
+                                            <div class="personal-area__product">
+                                                <div class="personal-area__product-image">
+                                                    <img src="html/img/personal-area/product-image1.png" alt="">
+                                                </div>
+                                                <div class="personal-area__product-wrapper">
+                                                    <div class="personal-area__product-name">
+                                                        Pandora Серьги «Розовое сердце» <span class="bold">35 000 ₸</span>
+                                                    </div>
+                                                </div>
+                                                <div class="personal-area__product-quantity">Кол-во: 2</div>
+                                                <div class="personal-area__product-inner">
+                                                    <div class="personal-area__product-price bold">70 000 ₸</div>
+                                                    <div class="personal-area__product-discount">Скидка 0 ₸</div>
+                                                </div>
+                                            </div>
+                                            <div class="personal-area__product">
+                                                <div class="personal-area__product-image">
+                                                    <img src="html/img/personal-area/product-image1.png" alt="">
+                                                </div>
+                                                <div class="personal-area__product-wrapper">
+                                                    <div class="personal-area__product-name">
+                                                        Pandora Серьги «Розовое сердце» <span class="bold">35 000 ₸</span>
+                                                    </div>
+                                                </div>
+                                                <div class="personal-area__product-quantity">Кол-во: 2</div>
+                                                <div class="personal-area__product-inner">
+                                                    <div class="personal-area__product-price bold">70 000 ₸</div>
+                                                    <div class="personal-area__product-discount">Скидка 0 ₸</div>
+                                                </div>
+                                            </div>
+                                            <div class="personal-area__product">
+                                                <div class="personal-area__product-image">
+                                                    <img src="html/img/personal-area/product-image1.png" alt="">
+                                                </div>
+                                                <div class="personal-area__product-wrapper">
+                                                    <div class="personal-area__product-name">
+                                                        Pandora Серьги «Розовое сердце» <span class="bold">35 000 ₸</span>
+                                                    </div>
+                                                </div>
+                                                <div class="personal-area__product-quantity">Кол-во: 2</div>
+                                                <div class="personal-area__product-inner">
+                                                    <div class="personal-area__product-price bold">70 000 ₸</div>
+                                                    <div class="personal-area__product-discount">Скидка 0 ₸</div>
+                                                </div>
+                                            </div>
+                                            <div class="personal-area__product">
+                                                <div class="personal-area__product-image">
+                                                    <img src="html/img/personal-area/product-image1.png" alt="">
+                                                </div>
+                                                <div class="personal-area__product-wrapper">
+                                                    <div class="personal-area__product-name">
+                                                        Pandora Серьги «Розовое сердце» <span class="bold">35 000 ₸</span>
+                                                    </div>
+                                                </div>
+                                                <div class="personal-area__product-quantity">Кол-во: 2</div>
+                                                <div class="personal-area__product-inner">
+                                                    <div class="personal-area__product-price bold">70 000 ₸</div>
+                                                    <div class="personal-area__product-discount">Скидка 0 ₸</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="personal-area__item-price">
+                                            <div class="personal-area__item-title">Стоимость заказа</div>
+                                            <ul class="item-price__price">
+                                                <li class="item-price__product-price">
+                                                    Стоимость товара: <span class="bold">380 000 ₸</span>
+                                                </li>
+                                                <li class="item-price__product-discount">
+                                                    Скидка на товар: <span class="bold">0 ₸</span>
+                                                </li>
+                                                <li class="item-price__order-discount">
+                                                    Скидка на заказ: <span class="bold">0 ₸</span>
+                                                </li>
+                                                <li class="item-price__delivery-price">
+                                                    Стоимость доставки: <span class="bold">0 ₸</span>
+                                                </li>
+                                            </ul>
+                                            <div class="personal-area__total-amount">
+                                                Итого: <span class="bold">380 000 ₸</span>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="personal-area__order-information">
+                                <div class="personal-area__order-row">
+                                    <div class="personal-area__order-price">
+                                        Заказ <span class="bold"> № 245656</span>
+                                        от 10.04.2025
+                                        Сумма: 380 000 ₸
+                                    </div>
+                                    <div class="personal-area__order-date">
+                                        <span class="order-date__delivery-cross">Не доставлен</span>
+                                        <span> Планируемая дата: </span>
+                                        12.04.2025
+                                    </div>
+                                    <div class="personal-area__order-adress">
+                                        Доставка: <span class="bold">CDEK</span>
+                                        Адрес пункта выдачи:
+                                        ул. Бориса Богаткова, 248а
+                                    </div>
+                                    <div class="personal-area__track-code">
+                                        Трек номер:
+                                    <span class="bold">145782217852</span> 
+                                        <a href="#" class="track-code__link">Отслеживать</a>
+                                    </div>
+                                    <a href="#" class="personal-area__order-button">
+                                        <div class="personal-area__order-link">Подробности заказа</div>
+                                    </a>
+                                </div>
+                                <div class="personal-area__order-name">Наименования в заказе</div>
+                                <div class="personal-area__order-content">
+                                    <div class="personal-area__products-wrapper">
+                                        <div class="personal-area__products-information">
+                                            <div class="personal-area__products-title">Товары в заказе</div>
+                                            <div class="personal-area__product">
+                                                <div class="personal-area__product-image">
+                                                    <img src="html/img/personal-area/product-image1.png" alt="">
+                                                </div>
+                                                <div class="personal-area__product-wrapper">
+                                                    <div class="personal-area__product-name">
+                                                        Pandora Серьги «Розовое сердце» <span class="bold">35 000 ₸</span>
+                                                    </div>
+                                                </div>
+                                                <div class="personal-area__product-quantity">Кол-во: 2</div>
+                                                <div class="personal-area__product-inner">
+                                                    <div class="personal-area__product-price bold">70 000 ₸</div>
+                                                    <div class="personal-area__product-discount">Скидка 0 ₸</div>
+                                                </div>
+                                            </div>
+                                            <div class="personal-area__product">
+                                                <div class="personal-area__product-image">
+                                                    <img src="html/img/personal-area/product-image1.png" alt="">
+                                                </div>
+                                                <div class="personal-area__product-wrapper">
+                                                    <div class="personal-area__product-name">
+                                                        Pandora Серьги «Розовое сердце» <span class="bold">35 000 ₸</span>
+                                                    </div>
+                                                </div>
+                                                <div class="personal-area__product-quantity">Кол-во: 2</div>
+                                                <div class="personal-area__product-inner">
+                                                    <div class="personal-area__product-price bold">70 000 ₸</div>
+                                                    <div class="personal-area__product-discount">Скидка 0 ₸</div>
+                                                </div>
+                                            </div>
+                                            <div class="personal-area__product">
+                                                <div class="personal-area__product-image">
+                                                    <img src="html/img/personal-area/product-image1.png" alt="">
+                                                </div>
+                                                <div class="personal-area__product-wrapper">
+                                                    <div class="personal-area__product-name">
+                                                        Pandora Серьги «Розовое сердце» <span class="bold">35 000 ₸</span>
+                                                    </div>
+                                                </div>
+                                                <div class="personal-area__product-quantity">Кол-во: 2</div>
+                                                <div class="personal-area__product-inner">
+                                                    <div class="personal-area__product-price bold">70 000 ₸</div>
+                                                    <div class="personal-area__product-discount">Скидка 0 ₸</div>
+                                                </div>
+                                            </div>
+                                            <div class="personal-area__product">
+                                                <div class="personal-area__product-image">
+                                                    <img src="html/img/personal-area/product-image1.png" alt="">
+                                                </div>
+                                                <div class="personal-area__product-wrapper">
+                                                    <div class="personal-area__product-name">
+                                                        Pandora Серьги «Розовое сердце» <span class="bold">35 000 ₸</span>
+                                                    </div>
+                                                </div>
+                                                <div class="personal-area__product-quantity">Кол-во: 2</div>
+                                                <div class="personal-area__product-inner">
+                                                    <div class="personal-area__product-price bold">70 000 ₸</div>
+                                                    <div class="personal-area__product-discount">Скидка 0 ₸</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="personal-area__item-price">
+                                            <div class="personal-area__item-title">Стоимость заказа</div>
+                                            <ul class="item-price__price">
+                                                <li class="item-price__product-price">
+                                                    Стоимость товара: <span class="bold">380 000 ₸</span>
+                                                </li>
+                                                <li class="item-price__product-discount">
+                                                    Скидка на товар: <span class="bold">0 ₸</span>
+                                                </li>
+                                                <li class="item-price__order-discount">
+                                                    Скидка на заказ: <span class="bold">0 ₸</span>
+                                                </li>
+                                                <li class="item-price__delivery-price">
+                                                    Стоимость доставки: <span class="bold">0 ₸</span>
+                                                </li>
+                                            </ul>
+                                            <div class="personal-area__total-amount">
+                                                Итого: <span class="bold">380 000 ₸</span>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="personal-area__tab personal-area__tab2">
+                        <div class="personal-area__password-form">
+                            <div class="personal-area__password">
+                                <div class="personal-area__pass"> Новый пароль*</div>
+                                <input type="text"  value="" placeholder="*******" class="personal-area__password-input">	
+                            </div>
+                            <div class="personal-area__confirmation">
+                                <div class="personal-area__confirm">Подтвердите пароль*</div>
+                                <input type="text"  value="" placeholder="*******" class="personal-area__confirmation-input">
+                            </div>
+                            <a href="" class="personal-area__password-inner">
+                                <div class="personal-area__password-button">Сохранить</div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="personal-area__tab personal-area__tab3"> 
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+	<div class="container">
+		<div class="footer__columns">
+            <div class="footer__description">
+                <a href="#" class="footer__logo">
+                    <img class="footer__image" src="html/img/footer/footer-logo.png" alt="">
+                </a>
+                <div class="footer__name-description">Интернет-магазин «Celestia»</div>
+                <div class="footer__text">
+					Доставка ювелирных изделий, бижутерии, часов по всему Казахстану.
+                </div>
+                <!-- <div class="footer__site-description">© С.su 2010–2021</div> -->
+            </div>
+            <div class="footer__menu">
+				<div class="footer__info">
+					<a href="#" class="footer__link">Магазин</a>
+					<a href="#" class="footer__link">Бренды</a>
+					<a href="#" class="footer__link">Журнал</a>
+					<a href="#" class="footer__link">Распродажа</a>
+					<a href="#" class="footer__link">Украшения</a>
+				</div>
+				<div class="footer__info">
+					<a href="#" class="footer__link">О компании</a>
+					<a href="#" class="footer__link">Контакты</a>
+					<a href="#" class="footer__link">Публичная оферта</a>
+					<a href="#" class="footer__link">Доставка и возврат</a>
+					<a href="#" class="footer__link">Политика конфиденциальности</a>
+				</div>
+			</div>
+            <div class="footer__contact">
+                <!-- <div class="footer__site-requisites">
+                    Консультант интернет-магазина:
+                    http://vk.com/akiba_zakaz
+                </div> -->
+                <div class="footer__number-requisites">
+                    8 (700) 545-39-64
+                  <span>(c 09:00 до 21:00)</span>
+                </div>
+                <div class="footer__mail-requisites">E-mail: celestia@gmail.com</div>
+                <div class="footer__icons">
+					<img src="html/img/footer/footer-icon1.png" alt="" class="footer__icon">
+                    <img src="html/img/footer/footer-icon2.png" alt="" class="footer__icon">
+				</div>
+            </div>
+        </div>
+	</div>
+</section>
+    <!-- <section class="footer">
+        <div class="container">
+            <div class="footer__columns">
+                <div class="footer__description">
+                    <a href="#" class="footer__logo">
+                        <img class="footer__image" src="html/img/footer/footer-logo.png" alt="">
+                    </a>
+                    <div class="footer__name-description">Аниме Интернет-магазин «АКИБА»</div>
+                    <div class="footer__text">
+                        Доставка Аниме товаров, Фигурок, Манги,
+                        Бижутерии по всей России.
+                    </div>
+                    <div class="footer__site-description">© Akiba.su 2010–2021</div>
+                </div>
+                <div class="footer__menu">
+                    <div class="footer__info">
+                        <a href="#" class="footer__link">Оплата</a>
+                        <a href="#" class="footer__link">Доставка</a>
+                        <a href="#" class="footer__link">Помощь</a>
+                        <a href="#" class="footer__link">Скидки</a>
+                        <a href="#" class="footer__link">Конструктор печати</a>
+                    </div>
+                    <div class="footer__info">
+                        <a href="#" class="footer__link">О компании</a>
+                        <a href="#" class="footer__link">Новости</a>
+                        <a href="#" class="footer__link">Каталог</a>
+                        <a href="#" class="footer__link">Политика конфиденциальности</a>
+                        <a href="#" class="footer__link">Контакты</a>
+                    </div>
+                </div>
+                <div class="footer__contact">
+                    <div class="footer__site-requisites">
+                        Консультант интернет-магазина:
+                        http://vk.com/akiba_zakaz
+                    </div>
+                    <div class="footer__number-requisites">
+                        +7 (904) 166-57-16
+                      <span>(c 09:00 до 22:00)</span>
+                    </div>
+                    <div class="footer__mail-requisites">E-mail: shop66@akiba.su</div>
+                    <div class="footer__icons">
+                        <img src="html/img/footer/footer-icon1.png" alt="" class="footer__icon">
+                        <img src="html/img/footer/footer-icon2.png" alt="" class="footer__icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="html/js/personal.js" type="text/javascript"></script>
+</body>
