@@ -27,6 +27,13 @@ body.dark-theme {
     background-color: #121212;
     color: #ffffff;
 }
+body.light-theme a{
+    color: #000000;
+}
+
+body.dark-theme a{
+    color: #ffffff;
+}
 .title {
 	font-size: 36px;
 	color: rgb(31, 31, 31);
