@@ -1233,8 +1233,8 @@ a{
 }
 @media (max-width: 768px){
     .menu__logo {
-        width: 56px;
-        overflow: hidden;
+/*         width: 56px;
+        overflow: hidden; */
     }
     .main-block__wrapper {
         grid-template-areas:
