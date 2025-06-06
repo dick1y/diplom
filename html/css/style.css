@@ -27,9 +27,9 @@ body.dark-theme {
     background-color: #121212;
     color: #ffffff;
 }
-body.light-theme a{
+/*body.light-theme a{
     color: #000000;
-}
+}*/
 
 body.dark-theme a{
     color: #ffffff;
