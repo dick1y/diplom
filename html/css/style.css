@@ -133,7 +133,8 @@ body.dark-theme a{
     color: #fff;
 }
 .top-menu__number {
-    display: inline-block
+    display: inline-block;
+    color: #fff;
 }
 .switch {
     border-radius: 11px;
