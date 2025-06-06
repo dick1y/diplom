@@ -134,7 +134,7 @@ body.dark-theme a{
 }
 .top-menu__number {
     display: inline-block;
-    color: #fff;
+    color: #fff!important;
 }
 .switch {
     border-radius: 11px;
